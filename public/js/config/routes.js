@@ -33,7 +33,7 @@ export default ['$stateProvider', '$urlRouterProvider', '$locationProvider', ($s
         })
         .state('algo1', {
             url: '/algo1',
-            template: '{{myFriends}}',
+            template: '<div> {{myFriends}} </div>',
             controller: ['$scope', function ($scope) {
                     $scope.friends = ["Ryan", "Kieran", "Mark"];
                     $scope.myFriends = $scope.friends.filter(function (words) {

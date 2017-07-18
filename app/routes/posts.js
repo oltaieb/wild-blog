@@ -21,6 +21,13 @@ module.exports = (app) => {
 
     //POST (for CREATE) method
     app.post('/posts', (req, res, next) => {
+        req.body.createdAt = new Date()
+
+            if (typeof req.body.createdAt === "number") {
+                req.body.createdAt === true }
+            else {
+                parseInt(req.body.createdAt)
+            }
         return ctrl.create(req, res, next)
     })
 

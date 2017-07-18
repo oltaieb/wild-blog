@@ -3,6 +3,10 @@ Create Angular component blogItem into module app.blog with databinding properti
 - post : post data for all content
 - editable : boolean indicate if this element is editable
 */
+
+import moment from 'moment'
+
+
 let blogItem = {
     bindings: {
         post: "<",
