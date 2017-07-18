@@ -1,0 +1,95 @@
+Qu'est ce qu’un fork Github ?
+
+Un fork est une copie d'un dépôt Github. 
+
+A quoi sert-il ?
+
+Il permet d'avoir accès à la fonction d'écriture sur le dépôt.
+
+Qu’est-ce qu’une pull request ? Quel est l’intérêt ?
+
+Une pull request est une demande à l'auteur original de prendre en compte nos modifications et les inclure dans le code si elles sont intéressantes.
+
+Qu’est-ce qu’une branche ?
+
+Une banche est un espace reservé au travail d'une fonctionnalité particulière ou d'un projet entier (dans le cas de la branche master).
+Les branches permettent d'éviter de polluer le flux principale en décentralisant le travail.
+
+Quelle est la différence entre une branche et un fork ? 
+
+Un fork est une copie d'un dépôt qui peut lui même détenir plusieurs branches.
+
+
+
+La stack MEAN :
+
+La stack MEAN est un ensemble de technologies basé sur JavaScript utilisé pour développer des applications web. MEAN est l’acronyme pour MongoDB, Express, AngularJS et NodeJS.
+
+Elles interagissent parfaitement entre elles avec leur langage commun et c'est pourquoi les développeurs front-end (côté client) peuvent aisément comprendre le back-end (côté serveur), et vice-versa.
+
+Angular
+
+C'est un framework front-end. C'est lui qui va gérer ce qui s'affiche sur la page de l'utilisateur. Essentielle pour le projet.
+
+Angular UI Router
+
+C'est un module de routage alternatif qui réalise toutes les tâches que ngRoute accomplit mais en se concentrant sur l'état de l'application. 
+Son atout: les templates et vues emboîtées. ontrairement à ngRoute qui utilise la directive ngView ne permettant d'inclure qu'un seul template à la fois dans le layout, UI-Router utilise uiView. 
+Cette directive peut être appelée plusieurs fois dans une page, rendant le développement beaucoup plus intuitif et logique.
+Technologie facultative car alternative à ngRoute mais très utile.
+
+Express
+
+C'est un framework pour construire des applications web basées sur Node.js. 
+Il fournit des outils de base pour aller plus vite dans la création d'applications tel que la gestion des routes et des templates.
+Technologie essentielle.
+
+JSONWebToken
+
+est un standard ouvert (RFC 7519) pour échanger de l'information de manière sécurisée via un jeton signé. 
+Par exemple un serveur pourrait émettre un jeton possédant l'affirmation "utilisateur identifié en tant qu'administrateur" et le fournir au client. 
+Le client pourrait alors vérifier le jeton pour prouver que l'utilisateur est identifié en tant qu'administrateur.
+Technologie facultative.
+
+Mongoose
+
+Mongoose est un module Node.js qui s'installe avec NPM (Node Package Manager). Mongoose va servir de passerelle entre le serveur Node.js et le serveur MongoDB.
+Il utilise des « Schema » pour modéliser les données.
+Technologie facultative.
+
+MaterializeCSS
+
+MaterializeCSS est un Framework CSS qui permet d'itérer facilement et de créer rapidement une interface propre.
+Technologie facultative.
+
+Passport
+
+PassportJS est un node package module permettant de gérer l’authentification en partant de la création de compte jusqu’à la connexion. 
+Il est préconfiguré pour travailler avec Mongo DB qui lui permet d’insérer les caractéristiques de l’utilisateur (email – mot de passe en hash) dans la base de donnée NoSQL.
+Technologie facultative.
+
+Babel
+
+Babel est un compileur JavaScript qui permet de traduire les derniers standards Ecmascript en Ecmascript compatible avec les navigateurs webs.
+Technologie facultative.
+
+SCSS
+
+SCSS est une syntaxe du language SASS, un langage script de génération de feuilles de style. 
+Il permet booster la productivité et d'améliorer la maintenabilité du code CSS.
+Technologie facultative.
+
+Nodemon
+
+Nodemon est un module NPM qui permet de rafraîchir automatiquement le serveur lors du changement de code.
+Technologie facultative.
+
+Webpack
+
+Webpack est un gestionnaire de module qui a pour objectif de faciliter la vie des developpeurs, notamment en aidant à organiser les applications JS en modules. 
+Technologie facultative.
+
+Livereload
+
+Livereload controle les changements dans les systèmes de fichiers et rafraichit la page dans le navigateur web.
+Technologie facultative.
